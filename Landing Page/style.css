@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+.para{
+    background-color:black;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.section_top{
+    width: 100%;
+    height: 91vh;
+    overflow: visible;
+    position:relative;
+    text-align:center;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+}
+.content a{
+    background: rgb(255, 155, 61);
+    padding: 10px 50px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 20px;
+    color:white;
+}
+.content h1{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+.content a:hover{
+    background: rgb(255, 255, 91);
+    color: white;
+}
+.container-fluid{
+    background-color:rgba(255, 0, 0, 0);
+}
+.video-background {
+    background: #ffffff00;
+    position: absolute;
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0;
+    overflow: hidden;
+    box-sizing: border-box; 
+}
+.video-foreground,
+.video-background video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    box-sizing: border-box;
+    object-fit: cover; 
+}
+
+.video-foreground{
+    padding-bottom: 56.25%;
+    box-sizing: border-box; 
+}
+
+.video-layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.493);
+    opacity: 0.5;
+    box-sizing: border-box; 
+}
+.main{
+    height: 100vh;
+    background-color: black;
+}
+span{
+    color:red;
+}
+.para{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:1rem;
+    gap: 1rem;
+    font-size: 20px;
+}
+.para1{
+    padding:1rem;
+    background-color: black;
+    font-size: 20px;
+}
+img , .hashira-vid{
+     height: 40%;
+    width: 40%;
+}
+.list>li{
+    list-style: '👺';
+}
+.hashira{
+    background-color: black;
+    height: 125vh;
+    padding: 1rem;
+}
+.pic{
+    border-radius: 50%;
+    height: 12rem;
+    width: 12rem;
+    object-fit:cover;
+}
+.hashira-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+}
+.moon,.upper{
+    background-color: black;
+    padding: 1rem;
+}
+.moon-list{
+    display: flex;
+    justify-content: center;
+}
